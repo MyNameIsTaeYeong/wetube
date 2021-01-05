@@ -11,7 +11,7 @@ Cloning YouTube with VanillaJS and NodeJS
 
 >+ git init
 >+ git ignore
->+ index.js(init.js) 작성
+>+ index.js(app.js) 작성
 >   >+ request의 끝엔 response가 있어야 한다.
 
 >+ babel 설치 (설치관련 이슈가 있으니 문서 참조)
@@ -29,5 +29,9 @@ Cloning YouTube with VanillaJS and NodeJS
 >   >   >+ helmet 설치 (앱의 보안에 도움이 되는 것)
 >   >   >+ cookie-parser ( cookie에 유저정보 저장, session을 다루기 위해 )
 >   >   >+ body-parser ( request object에 접근하기 위한 것. body로부터 )
+
+>+ init.js작성
+>+ router작성
+
   
 
