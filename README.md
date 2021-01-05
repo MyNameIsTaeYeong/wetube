@@ -24,10 +24,10 @@ Cloning YouTube with VanillaJS and NodeJS
 >+ middleware ( middle software )
 >   >+ 요청과 응답 사이의 무언가 처리를 위하는 함수. (3번째 'next' parameter를 이용해서 다음으로 넘긴다.)
 >   >+ app.use()(전역으로 사용) 또는 중간에 삽입(지역으로 사용)하여 사용
->+ 필요한 middle ware 설치
->   >+ morgan 설치 (logging을 위한 것)
->   >+ helmet 설치 (앱의 보안에 도움이 되는 것)
->   >+ cookie-parser ( cookie에 유저정보 저장, session을 다루기 위해 )
->   >+ body-parser ( request object에 접근하기 위한 것. body로부터 )
+>   >+ 필요한 middle ware 설치
+>   >   >+ morgan 설치 (logging을 위한 것)
+>   >   >+ helmet 설치 (앱의 보안에 도움이 되는 것)
+>   >   >+ cookie-parser ( cookie에 유저정보 저장, session을 다루기 위해 )
+>   >   >+ body-parser ( request object에 접근하기 위한 것. body로부터 )
   
 
