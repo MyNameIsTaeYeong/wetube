@@ -37,6 +37,17 @@ Cloning YouTube with VanillaJS and NodeJS
 >   >   +   V : data가 어떻게 보이는지?
 >   >   +   C : data를 어떻게 처리하는지?
 >+ Pug : express에서 View를 다루는 방식 중 하나
+>+ Pug 설치
+>+ Pug 설정(app.set("view engine", "pug"))
+>+ Pug는 기본설정으로 "프로젝트 루트/views"에서 파일을 찾는다.
+>+ Pug 테크닉
+>   >   + 쉽게 레이아웃 재사용 가능(extends)
+>   >   + 컴포넌트 분리해서 사용가능(include)
+>   >   + javascipt 추가시 #{javacript code}
+>+ 모든 템플릿 또는 컨트롤러 등에서 사용하도록 전역 변수화 시키는 방법
+>   >   + middleware를 이용하여 res.locals에 저장.
+>+ 한 템플릿에만 변수 추가하는 방법
+>   >   + 템플릿에서 '#{변수명}' 또는 '태그=변수명'(텍스트가 없는 경우)을 쓰고 , render()의 두번째 인자의 객체에 담아서 보낸다.
 
   
 
