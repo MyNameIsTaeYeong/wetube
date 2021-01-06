@@ -32,6 +32,11 @@ Cloning YouTube with VanillaJS and NodeJS
 
 >+ init.js작성
 >+ router작성
+>+ MVC pattern
+>   >   +   M : data
+>   >   +   V : data가 어떻게 보이는지?
+>   >   +   C : data를 어떻게 처리하는지?
+>+ Pug : express에서 View를 다루는 방식 중 하나
 
   
 
