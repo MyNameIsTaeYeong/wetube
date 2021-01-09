@@ -28,7 +28,7 @@ Cloning YouTube with VanillaJS and NodeJS
 >   >   >+ morgan 설치 (logging을 위한 것)
 >   >   >+ helmet 설치 (앱의 보안에 도움이 되는 것)
 >   >   >+ cookie-parser ( cookie에 유저정보 저장, session을 다루기 위해 )
->   >   >+ body-parser ( request object에 접근하기 위한 것. body로부터 )
+>   >   >+ body-parser ( form에서 전송한 정보를 req.body를 통해 접근할 수 있다. )
 
 >+ init.js작성
 >+ router작성
@@ -49,5 +49,5 @@ Cloning YouTube with VanillaJS and NodeJS
 >+ 한 템플릿에만 변수 추가하는 방법
 >   >   + 템플릿에서 '#{변수명}' 또는 '태그=변수명'(텍스트가 없는 경우)을 쓰고 , render()의 두번째 인자의 객체에 담아서 보낸다.
 >+ 컨트롤러에서 req.query에 접근하려면 get방식이어야 한다.
-  
-
+>+  mixin : 반복되는 부분의 코드를 재활용하는 방법. (다른 정보, 같은 구조인 경우 사용)
+>+ 
