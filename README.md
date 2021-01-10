@@ -7,20 +7,16 @@ Cloning YouTube with VanillaJS and NodeJS
 >+ npm init
 >+ express 설치
 >   >+ 협업시 pakage.json만 건네준 후 npm install을 하면 필요한 것을 다운받을 수 있다.
-
-
 >+ git init
 >+ git ignore
 >+ index.js(app.js) 작성
 >   >+ request의 끝엔 response가 있어야 한다.
-
 >+ babel 설치 (설치관련 이슈가 있으니 문서 참조)
 >   >  + 최신 javascript문법을 예전 표준 javacript로 변환해준다.
 >+ nodemon 설치
 >   >  + 프로젝트에 필요한 부분은 dependencies에 
 >   >  + 프로젝트에 필요하진 않지만, 개발자에게 필요한 설치는 devDependencies에
 (-D옵션)
-
 >+ middleware ( middle software )
 >   >+ 요청과 응답 사이의 무언가 처리를 위하는 함수. (3번째 'next' parameter를 이용해서 다음으로 넘긴다.)
 >   >+ app.use()(전역으로 사용) 또는 중간에 삽입(지역으로 사용)하여 사용
@@ -29,7 +25,6 @@ Cloning YouTube with VanillaJS and NodeJS
 >   >   >+ helmet 설치 (앱의 보안에 도움이 되는 것)
 >   >   >+ cookie-parser ( cookie에 유저정보 저장, session을 다루기 위해 )
 >   >   >+ body-parser ( form에서 전송한 정보를 req.body를 통해 접근할 수 있다. )
-
 >+ init.js작성
 >+ router작성
 >+ MVC pattern
@@ -50,4 +45,9 @@ Cloning YouTube with VanillaJS and NodeJS
 >   >   + 템플릿에서 '#{변수명}' 또는 '태그=변수명'(텍스트가 없는 경우)을 쓰고 , render()의 두번째 인자의 객체에 담아서 보낸다.
 >+ 컨트롤러에서 req.query에 접근하려면 get방식이어야 한다.
 >+  mixin : 반복되는 부분의 코드를 재활용하는 방법. (다른 정보, 같은 구조인 경우 사용)
->+ 
+>+ Mongo와 Javascript 연결하기
+>   >   +   Mongoose 설치 후 이용(MongoDB와 NodeJS를 연결하는 adapter)
+>+  dotenv 설치하기 (보안을 위해 쓰이는 것. 변수 캡슐화)
+>+ multer : file을 업로드하고 URL을 반환하는 middleware
+>+ url로부터 정보를 가져오는 방법
+>   >   +   url에 ":변수명"을 포함시키고 req.params로 접근한다.
