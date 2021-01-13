@@ -38,7 +38,7 @@ Cloning YouTube with VanillaJS and NodeJS
 >+ Pug 테크닉
 >   >   + 쉽게 레이아웃 재사용 가능(extends)
 >   >   + 컴포넌트 분리해서 사용가능(include)
->   >   + javascipt 추가시 #{javacript code}
+>   >   + javascript 추가시 #{javacript code}
 >+ 모든 템플릿 또는 컨트롤러 등에서 사용하도록 전역 변수화 시키는 방법
 >   >   + middleware를 이용하여 res.locals에 저장.
 >+ 한 템플릿에만 변수 추가하는 방법
@@ -51,3 +51,6 @@ Cloning YouTube with VanillaJS and NodeJS
 >+ multer : file을 업로드하고 URL을 반환하는 middleware
 >+ url로부터 정보를 가져오는 방법
 >   >   +   url에 ":변수명"을 포함시키고 req.params로 접근한다.
+
+>+  ESLint 설치
+>+  webpack 설치
