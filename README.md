@@ -57,3 +57,6 @@ Cloning YouTube with VanillaJS and NodeJS
 >+  passport : 사용자 인증을 구현시켜주는 미들웨어
 >+  passport-local-mongoose : local에서 필요한 패스워드 생성, 변경, 확인 등을 지원해주는 모듈
 >+  connect-mongo 모듈을 이용하여 세션을 db에 연결한다.(서버가 재시작 되어도 해당 새션을 유지)
+>+ mongoose populate함수 
+>   >   + 오직 ObjectId타입에만 사용가능.
+>   >   + 사용하게 되면 해당 객체가 포함되어진다.
