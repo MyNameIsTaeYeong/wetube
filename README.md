@@ -60,3 +60,6 @@ Cloning YouTube with VanillaJS and NodeJS
 >+ mongoose populate함수 
 >   >   + 오직 ObjectId타입에만 사용가능.
 >   >   + 사용하게 되면 해당 객체가 포함되어진다.
+
+>+ 비동기 방식
+>   >+ fetch와 axios가 있다. axios를 쓰면 status code를 쉽게 받아서 그 이후 작업을 할 수 있다.
