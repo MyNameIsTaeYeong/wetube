@@ -10,7 +10,7 @@ passport.use(User.createStrategy());
 passport.use(new GithubStrategy({
     clientID: process.env.GH_ID,
     clientSecret: process.env.GH_SECRET,
-    callbackURL: `http://localhost:4000${routes.githubCallback}`
+    callbackURL: `https://enigmatic-shelf-55048.herokuapp.com/${routes.githubCallback}`
 },
 githubLoginCallback
 ));
